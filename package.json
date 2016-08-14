@@ -1,0 +1,37 @@
+{
+  "name": "mongoose-rest",
+  "version": "0.0.1",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha --timeout 35000",
+    "lint": "eslint . --quiet"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/interisti/mongoose-rest.git"
+  },
+  "keywords": [
+    "mongoose",
+    "mongodb",
+    "rest"
+  ],
+  "author": "Nika Nikabadze <nika.interisti@gmail.com> (https://github.com/interisti)",
+  "contributors": [
+    "Giga Chkhikvadze <giga@chkhikvadze.com> (https://github.com/chkhikvadze)"
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/interisti/mongoose-rest/issues"
+  },
+  "homepage": "https://github.com/interisti/mongoose-rest#readme",
+  "dependencies": {
+    "lodash": "4.13.1",
+    "mongoose": "4.5.5"
+  },
+  "devDependencies": {
+    "chai": "3.5.0",
+    "eslint": "3.1.0",
+    "mocha": "2.5.3"
+  }
+}
