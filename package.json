@@ -2,12 +2,12 @@
   "name": "mongoose-rest",
   "version": "0.0.1",
   "description": "",
-  "main": "src/index.js",
+  "main": "build/index.js",
   "scripts": {
     "test": "mocha --timeout 35000",
     "lint": "eslint . --quiet",
     "build": "babel src -d build",
-		"watch": "babel -w src -d build -s"
+    "watch": "babel -w src -d build -s"
   },
   "repository": {
     "type": "git",
@@ -17,7 +17,9 @@
     "mongoose",
     "mongodb",
     "rest",
-		"http"
+    "http",
+    "express",
+    "middleware"
   ],
   "author": "Nika Nikabadze <nika.interisti@gmail.com> (https://github.com/interisti)",
   "contributors": [
@@ -29,6 +31,7 @@
   },
   "homepage": "https://github.com/interisti/mongoose-rest#readme",
   "dependencies": {
+    "express": "4.14.0",
     "lodash": "4.13.1",
     "mongoose": "4.5.5"
   },
